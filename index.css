@@ -4,6 +4,17 @@ body {
   padding: 0;
   background-color: #ffffff;
   color: #000000;
+  margin: 0;
+}
+.banner {
+  height: 200px;    /* 원하는 배너의 높이 설정 */
+  width: 100%;      /* 너비는 화면에 맞게 100% 확장 */
+}
+main section {
+  display: none;
+}
+main section.active {
+  display: block;
 }
 header {
   padding: 20px 40px;
@@ -53,15 +64,13 @@ section h2 {
   margin-bottom: 15px;
   color: #333;
 }
+
 section p {
   font-size: 1.1em;
   line-height: 1.6em;
   color: #333;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
-}
+
 ul li {
   font-size: 1.1em;
   margin-bottom: 10px;
